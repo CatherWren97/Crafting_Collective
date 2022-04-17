@@ -1,0 +1,153 @@
+
+<!--Template by Alex, edited by Catherine 4/17-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initital-scale=1.0">
+<link rel="shortcut icon" href="icon.png"/>
+<link rel="stylesheet" href="stylesheet.css"/>
+<title>Crafting Collective</title>
+</head>
+
+<body>
+<!-- pagewrap start -->
+<div class="pagewrap">      
+
+        <div class="header">
+          <img src="header.png" alt="crafting collective image">
+        </div>
+
+<!-- nav start -->
+    <div id="nav">
+        <div class="home">
+            <a class="dropbtn" href="Crafting Collective.html">Home</a> 
+        </div>
+        <div class="dropdown"> 
+            <button class="dropbtn">Crafts</button>
+            <div class="dropdown-content">
+                <div class="link"><a href="knit.html">Knitting</a></div>
+                <div class="link"><a href="crochet.html">Crochet</a></div>
+                <div class="link"><a href="sewing.html">General Sewing</a></div>
+                <div class="link"><a href="quilt.html">Quilting</a></div>
+                <div class="link"><a href="embroider.html">Embroidery & Cross Stitch</a></div>
+                <div class="link"><a href="leather.html">Leather Work</a></div>
+                <div class="link"><a href="tie_dye.html">Tie-Dye</a></div>
+            </div>
+          </div>
+            <div class="dropdown">
+                <button class="dropbtn">Resources</button>
+                <div class="dropdown-content">
+                    <div class="link"><a href="temp.html">Annotated Resource Guide</a></div>
+                    <div class="link"><a href="temp.html">Where to Buy Materials</a></div>
+                </div>
+          </div>
+          <div class="about"> 
+            <a class="dropbtn" href="temp.html">About Us</a>
+          </div>
+    </div>
+<!-- nav end -->
+
+<!-- side nav -->
+<div class="row">
+    <div class="side nav">
+        <button class="accorHeader">Knit</button>
+        <button class="accordion2" onclick="location.href='#learn'">Learn to Knit</button>
+        <button class="accordion2" onclick="location.href='#patterns'">Patterns</button>
+    </div>
+<!-- side nav end -->
+
+    <div class="content main">
+        <h1>Learn to Knit</h1>
+        <p>Write a brief description of knitting and the history here!</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="content full">
+        <h2 id="learn">Learn to Knit</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="content half">
+        <h3>Learn to knit with RJ</h3>
+        <!-- youtube vid not necessary, but heres how it would look -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/p_R1UDsNOMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p> On his channel <a href="https://www.youtube.com/channel/UCkg45GHzMdEBXl8BA8FtPpw">RJ Knits</a>, RJ Collett explores different ways
+            of knitting, tecniques for knitters of all levels. He is a self proclaimed "author, knitter, and animator" and on his channel,
+            he makes "videos you can wear". His videos are informative and easy to follow, and are good for anyone who wants to learn, or
+            sharpen their kniting skills.
+        </p>
+        <h4>Learning Resources:</h4>
+        <ul>
+            <li><a href="https://ryancollett.com/">RJ's Website</a></li>
+            <li><a href="https://twitter.com/RJCollett">RJ's Twitter</a></li>
+        </ul>
+    </div>
+
+    <div class="break"></div>
+
+    <div class="content half">
+        <h3>Beginner Knitting for Lefties</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OhiKp9Y7cgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Since knitting uses both hands regularly, you might be wondering how it can be left or right handed. But despite the usage of both
+            hands, which direction you knit in depends on which is your dominent hand. If you are left hand dominant, or simply find knitting with
+            your right hand dominant too difficult, try with your left hand!
+        </p>
+        <h4>Learning Resources:</h4>
+        <ul>
+            <li><a href="https://blog.nobleknits.com/our-story">About Us</a> from Noble Knits Website</li>
+            <li><a href="https://www.nancyqueen.com/">Nancy Queen's Website</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="content full">
+        <h2 id="patterns">Patterns</h2>
+    </div>
+</div>
+
+<!-- patterns start -->
+    <h3>Take a look at some patterns sorted by difficulty below:</h3>
+    <button class="collapsible">Beginner</button>
+    <div class="collapse content">
+        <h4>[Pattern Name]</h4>    
+        <img src="img.jpg" alt="alt text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <br><br>Link: <a href="link">[Pattern Name] Pattern</a>
+        </p>
+        <hr>
+        <h4>[Pattern Name]</h4>        
+        <img src="img.jpg" alt="alt text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <br><br>Link: <a href="link">[Pattern Name] Pattern</a>
+        </p>
+    </div>
+
+    <button class="collapsible">Intermediate</button>
+    <div class="collapse content">
+        <p></p>
+    </div>
+
+    <button class="collapsible">Expert</button>
+    <div class="collapse content">
+        <p></p>
+    </div>
+<!-- patterns end -->
+
+<!-- javascript -->
+<script src="java_collective.js"></script>
+
+</div> 
+<!-- pagewrap end  -->
+
+<footer>Crafting Collective &copy;2022</footer>
+    
+</body>
+</html>
